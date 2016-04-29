@@ -1,0 +1,38 @@
+root:
+    facebook:
+      client:
+        clientId: <FBClientID>
+        clientSecret: <FBAppSecret>
+        accessTokenUri: https://graph.facebook.com/oauth/access_token
+        userAuthorizationUri: https://www.facebook.com/dialog/oauth
+        tokenName: oauth_token
+        authenticationScheme: query
+        clientAuthenticationScheme: form
+        scope: user_posts,user_likes
+      resource:
+        userInfoUri: https://graph.facebook.com/me
+
+    salesforce:
+      client:
+        clientId: <SalesforceClientID>
+        clientSecret: <SalesforceAppSecret>
+        accessTokenUri: https://login.salesforce.com/services/oauth2/token
+        userAuthorizationUri: https://login.salesforce.com/services/oauth2/authorize
+        tokenName: oauth_token
+        authenticationScheme: header
+        clientAuthenticationScheme: form
+        useCurrentUri : false
+        preEstablishedRedirectUri : http://localhost:8080/login/salesforce
+        scope: full,chatter_api
+      resource:
+        userInfoUri: https://login.salesforce.com/services/oauth2/userinfo
+
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+spring:
+  resources:
+    chain:
+      enabled: true
