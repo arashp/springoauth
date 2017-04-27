@@ -6,7 +6,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>social-manual</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>iar</packaging>
+	<packaging>oar</packaging>
 
 	<name>social-manual</name>
 	<description>Demo project for Spring Boot</description>
