@@ -5,8 +5,9 @@
 
 	<groupId>com.example</groupId>
 	<artifactId>social-manual</artifactId>
+   
     <version>0.0.1-SNAPSHOT</version>
-	<packaging>par</packaging>
+	<packaging>kar</packaging>
 
 
 	<name>social-manual</name>
