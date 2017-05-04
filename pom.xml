@@ -7,7 +7,7 @@
 	<artifactId>social-manual</artifactId>
    
     <version>0.0.1-SNAPSHOT</version>
-	<packaging>kar</packaging>
+	<packaging>tar</packaging>
 
 
 	<name>social-manual</name>
