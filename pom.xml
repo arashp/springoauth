@@ -7,7 +7,9 @@
 	<artifactId>social-manual</artifactId>
    
     <version>0.0.1-SNAPSHOT</version>
-	<packaging>uar</packaging>
+
+	<packaging>kar</packaging>
+    arash branch1
 
 
 	<name>social-manual</name>
